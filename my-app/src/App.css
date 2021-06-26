@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header begin*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url("./assets/images/clouded-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 999;
+  
+}
+
+header h1 a {
+  font-family: '3dumbregular';
+  text-decoration: none;
+  font-size: 85px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 30px;
+  animation-name: jm;
+  animation-duration: 6s;
+
+  }
+
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/*navigation begin*/
+
+header nav {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav li a {
+  padding: 10px 50px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+header nav li a:hover {
+  text-decoration: underline;
+}
+
+/*hero begin*/
+
+body {
+  margin: 0 auto;
+  font-family:sans-serif ;
+}
+
+.hero {
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  background-image: url("./assets/images/clouded-bg.jpg");
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: -5px;
+}
+
+.hero h5 {
+  font-size: 30px;
+}
+
+.hero .hero-btn {
+  display: block;
+  width: 200px;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 16px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero-inside img {
+  height: 50px;
+  margin-top: 20px;
+}
+
+/*about me begin*/
+
+.about-me {
+  background-color: rgb(160, 159, 158);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-me h5 {
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.about-me h1 {
+  font-size: 60px;
+}
+
+.about-me img {
+  border-radius: 50%;
+  width: 380px;
+  height: auto;
+  border:0px solid black;
+}
+
+.about-me-content  {
+  max-width: 800px;
+}
+
+.about-me p {
+  text-align: center;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.about-btn {
+  display: block;
+  width: 200px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 16px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/*my work begin*/
+.my-work {
+  background-color: rgb(31, 29, 29);
+  background-image: url(../src/assets/images/clouded-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding-bottom: 70px;
+  
+}
+
+.my-work h1 {
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 60px;
+}
+
+.cards {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row ;
+  
+
+}
+
+
+.cards img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.cards img:hover {
+  filter: grayscale(0%);
+  transition-duration: 2s;
+}
+
+.card {
+  width: 25%;
+  background-color: blanchedalmond;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.card:first-child {
+  flex: 1 1 400px;
+  width: 50%;
+}
+
+.card:not(:first-child) {
+  flex: 1 1 300px;
+  max-width: 60%;
+  
+}
+
+/*contact section begin*/
+
+.contact h5 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.email {
+  text-align: center;
+  width: 50%;
+}
+
+.email h5 {
+  margin: 0;
+}
+
+.email img {
+  height: 64px;
+  width: 64px;
+}
+
+.email a {
+  text-decoration: none;
+  color: black;
+}
+
+.phone h5 {
+  margin: 0;
+}
+
+.phone {
+  text-align: center;
+  width: 50%;
+}
+
+.phone a {
+  text-decoration: none;
+  color: black;
+}
+
+.phone-email {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons img {
+  height: 64px;
+  width: 64px;
+}
+
+
+@keyframes jm {
+from {color: rgb(24, 23, 23);}
+to {color: rgb(255, 255, 255);
+}}
+
+
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+/*navigation begin*/
+
+header nav {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav li a {
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+}
+
+
+@media screen and (max-width: 575px) {
+  
+  header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-image:url("./assets/images/clouded-bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-position: 80%;
+      z-index: 999;
+      
+  }
+  
+  header h1 a {
+      font-family: '3dumbregular';
+      text-decoration: none;
+      font-size: 85px;
+      margin: 0;
+      display: flex;
+      align-items: flex-end;
+      margin-left: 30px;
+      animation-name: jm;
+      animation-duration: 6s;
+  
+      }
+  
+  
+  header a {
+      text-decoration: none;
+      color: white;
+      
+      
+  }
+  
+  /*navigation begin*/
+  
+  header nav {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+  }
+  
+  header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      flex-direction: column;
+  }
+  
+  header nav li a {
+      padding: 10px 30px;
+      font-size: 30px;
+      font-weight: lighter;
+  }
+
+  /*about section*/
+
+  .about-me img {
+      border-radius: 50%;
+      width: 80%;
+      height: auto;
+      border:0px solid black;
+  }
+
+  .about-me p {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+}
