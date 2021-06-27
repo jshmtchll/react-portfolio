@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.536544e2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.926a718b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.926a718b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.795dd7b0.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.795dd7b0.js.map",
+    "static/css/2.d45d6843.chunk.css": "/react-portfolio/static/css/2.d45d6843.chunk.css",
+    "static/js/2.42bfa7b3.chunk.js": "/react-portfolio/static/js/2.42bfa7b3.chunk.js",
+    "static/js/2.42bfa7b3.chunk.js.map": "/react-portfolio/static/js/2.42bfa7b3.chunk.js.map",
+    "static/js/3.25903401.chunk.js": "/react-portfolio/static/js/3.25903401.chunk.js",
+    "static/js/3.25903401.chunk.js.map": "/react-portfolio/static/js/3.25903401.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/react-portfolio/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.536544e2.chunk.css.map": "/react-portfolio/static/css/main.536544e2.chunk.css.map",
+    "static/js/2.42bfa7b3.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.42bfa7b3.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/react-portfolio/static/media/hvd_rowdy-webfont.f4dde26e.woff",
+    "static/media/App.css": "/react-portfolio/static/media/clouded-bg.51de50e0.jpg",
+    "static/media/fantasysport.8553d27b.png": "/react-portfolio/static/media/fantasysport.8553d27b.png",
+    "static/media/findthebrew.8ce90312.png": "/react-portfolio/static/media/findthebrew.8ce90312.png",
+    "static/media/gitwhite.48465252.svg": "/react-portfolio/static/media/gitwhite.48465252.svg",
+    "static/media/jschallenge.e2b35ec4.png": "/react-portfolio/static/media/jschallenge.e2b35ec4.png",
+    "static/media/linkedwhite.4406a144.svg": "/react-portfolio/static/media/linkedwhite.4406a144.svg",
+    "static/media/portrait.688b47b5.jpg": "/react-portfolio/static/media/portrait.688b47b5.jpg",
+    "static/media/resume.b98e1384.pdf": "/react-portfolio/static/media/resume.b98e1384.pdf",
+    "static/media/scheduler.a20fa48e.png": "/react-portfolio/static/media/scheduler.a20fa48e.png",
+    "static/media/weatherdash.49d2772f.png": "/react-portfolio/static/media/weatherdash.49d2772f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.795dd7b0.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.42bfa7b3.chunk.js",
+    "static/css/main.536544e2.chunk.css",
+    "static/js/main.926a718b.chunk.js"
+  ]
+}
